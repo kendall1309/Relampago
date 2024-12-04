@@ -34,12 +34,19 @@
             color: #333;
         }
 
-        .logo-container {
+                .logo-container {
             background-color: white;
             padding: 10px;
             display: inline-block;
             margin-bottom: 20px;
+            background-image: url('img/logo.png'); 
+            background-size: contain; 
+            background-repeat: no-repeat; 
+            background-position: center; 
+             width: 80px; 
+    height:50px;
         }
+
 
         .metrics-container {
             display: flex;
@@ -113,16 +120,15 @@
     <form id="form1" runat="server">
         <div class="dashboard">
             <div class="logo-container">
-                Logo
             </div>
 
             <div class="metrics-container">
-                <div class="metric-box">N° de cantidad procesos</div>
+                <div class="metric-box"></div>
                 <div class="metric-box">N° de cantidad de dependecias</div>
                 <div class="metric-box">N° de ejercicios estrategicos</div>
                 <div class="metric-box">N° cantidad de macroprocesos</div>
                 <div class="metric-box">N° de eje estrategico</div>
-            </div>
+            </div>N° de cantidad procesos
 
             <div class="charts-container">
                 <div class="chart-box">
