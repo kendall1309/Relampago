@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Resumen.aspx" />
     <Content Include="area.aspx" />
     <Content Include="dependencia.aspx" />
     <Content Include="detalle.aspx" />
@@ -78,6 +79,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Resumen.aspx.cs">
+      <DependentUpon>Resumen.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Resumen.aspx.designer.cs">
+      <DependentUpon>Resumen.aspx</DependentUpon>
+    </Compile>
     <Compile Include="area.aspx.cs">
       <DependentUpon>area.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
